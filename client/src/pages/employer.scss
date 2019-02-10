@@ -1,0 +1,114 @@
+@import'../base-colors';
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+}
+
+.header {
+    display: flex;
+    background: url(../Assets/images/employer.jpg);
+    background-size: cover;
+    background-position: center;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 400px;
+}
+
+.form-wrap {
+    display: flex;
+    color: #ffff;
+    text-align: center;
+    width: 500px;
+    margin: 0 20px;
+    background: $Darkblue;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.form-wrap p {
+    color: #ffff
+}
+
+.page-wrapper input {
+    width: 40%;
+    background: none;
+    color: #ffff;
+    align-content: center;
+    border: 1px solid #ffff;
+    padding: 8px 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.page-wrapper input[type="button"] {
+    background: $Lightblue;
+    border: none;
+    color: #ffff;
+}
+
+.page-wrapper ::placeholder {
+    color: #ffff;
+}
+
+.management {
+    background: rgba(208, 206, 195, 0.8);
+    padding: 20px;
+    border-right: 15px solid $Lightblue;
+    background-size: cover;
+    color: aqua;
+}
+
+.management h4 {
+    color: $Darkblue;
+}
+
+.management p {
+    color: $Grey;
+    font: bold;
+}
+
+/* ===============================================
+                  content section
+  ===================================================*/
+
+.content-body {
+    display: grid;
+    grid-template-areas: "recruit checks""training research";
+    text-align: justify;
+}
+
+.recruit {
+    // background: $Lightblue;
+    padding: 20px;
+    color: $Grey;
+}
+
+.checks {
+    background: $Grey;
+    padding: 20px;
+    color: #ffff;
+}
+
+.checks p {
+    color: #ffff
+}
+
+.training {
+    background: $Darkblue;
+    padding: 20px;
+    color: #ffff;
+}
+
+.training p {
+    color: #ffff
+}
+
+.research {
+    padding: 20px;
+    color: $Grey;
+}

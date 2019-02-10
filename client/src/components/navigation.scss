@@ -1,0 +1,75 @@
+@import'../base-colors';
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 600 !important;
+    text-transform: uppercase;
+    background: transparent;
+
+
+}
+
+.nav-link {
+    font-size: 16px;
+}
+
+.logo img {
+    width: 60px !important;
+    height: 58px !important;
+    margin-left: 10px;
+    /* display: block !important; */
+    text-indent: -9999px !important;
+}
+
+.nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0;
+    list-style: none;
+    font-size: 16px;
+}
+
+.nav span {
+    background: rgb(0, 162, 255);
+    padding: 10px;
+}
+
+.nav span a {
+    color: #ffffff !important;
+}
+
+.nav span li {
+    margin-right: 5px !important;
+    margin-left: 15px !important;
+
+}
+
+.nav li {
+    margin-right: 30px;
+}
+
+.nav :hover {
+    color: $Grey !important;
+}
+
+.nav ul a {
+    text-decoration: none;
+    color: $Grey;
+}
+
+
+
+.nav li .nav-link {
+    color: $Darkblue;
+}
+
+.nav li :hover {
+    color: red;
+}
+
+.nav li .active {
+    color: $Grey;
+}

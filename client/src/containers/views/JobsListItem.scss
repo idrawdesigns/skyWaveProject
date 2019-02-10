@@ -1,0 +1,50 @@
+.list-item-wrapper {
+  display: flex;
+  width: 90%;
+  background: rgb(19, 104, 216);
+  padding: 30px;
+  margin: 30px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 10px 10px 28px -18px rgba(0, 0, 0, 0.75);
+
+}
+
+.summary-title {
+  flex: 1;
+  padding-left: 20px;
+
+
+}
+
+.summary-title h4 {
+  font-weight: 500;
+  color: white;
+}
+
+.summary-title p {
+  padding-top: 12px;
+
+  font-weight: 400;
+  color: white;
+}
+
+.summary-title span {
+  padding-top: 10px;
+  font-weight: 400;
+  color: rgb(217, 255, 0);
+}
+
+
+
+.read-more {
+
+  color: #fff;
+  text-decoration: none;
+  border: 1.5px solid #fff;
+  border-radius: 3px;
+  padding: 6px 60px;
+  height: 40px;
+  box-sizing: border-box;
+}

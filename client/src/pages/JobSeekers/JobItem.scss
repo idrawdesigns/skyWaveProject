@@ -1,0 +1,89 @@
+.job-wrapper {
+    padding: 80px;
+    width: 100%;
+}
+
+
+
+.job-title h3 {
+    font-weight: 400;
+    color: #808080;
+
+
+}
+
+.btn-role {
+    padding: 10px 20px;
+    border: 1px solid #b7b7b7;
+    border-radius: 4px;
+    color: #b7b7b7;
+    font-weight: 300;
+    text-align: center;
+    width: 300px;
+    margin-right: 10px;
+
+
+}
+
+
+
+
+.btn-role span {
+    color: #837c7c;
+
+}
+
+.location-type {
+    width: 690px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-content {
+    display: flex;
+    padding: 20px;
+}
+
+.main-content h3 {
+    font-size: 18px;
+    color: #686262;
+}
+
+.description {
+    text-align: justify;
+    flex: 2;
+    padding-right: 40px;
+    border-right: 2px solid #808080;
+}
+
+.aside {
+    display: flex;
+    flex: 1;
+    padding: 30px;
+    align-items: center;
+}
+
+.icon {
+    padding-top: 20px;
+    width: 100px;
+    height: 100px;
+    font-size: 60px;
+    text-align: center;
+    background: rgb(61, 61, 61);
+    color: white;
+}
+
+
+
+.main-text {
+    padding: 20px;
+    display: flex;
+}
+
+.main-text p {
+    font-size: 14px;
+}
+
+.main-text span {
+    font-weight: 600;
+}

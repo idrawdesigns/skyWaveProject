@@ -1,0 +1,118 @@
+@import '../../base-colors';
+
+
+img {
+    max-width: 100%;
+}
+
+.wrapper {
+    display: grid;
+    grid-gap: 0px;
+}
+
+.top-container {
+    display: grid;
+    min-height: 200px;
+    grid-template-areas: "woman req-staff man job-sekeers  ";
+}
+
+#woman {
+    grid-area: woman;
+    background: url(../../Assets/images/women-tablet.jpg
+);
+    background-size: cover;
+    background-position: center;
+}
+
+.req-staff {
+    grid-area: req-staff;
+    min-height: 400px;
+    background: $Lightblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#man {
+    grid-area: man;
+    background: url(../../Assets/images/man_holding.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.job-seekers {
+    grid-area: job-sekeers;
+    background: $Magenta;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.job-seekers li {
+    color: #fff;
+}
+
+/* //---------------------------------------- */
+
+.about {
+    display: grid;
+    background: linear-gradient(to bottom,
+        rgba(242, 241, 244, 1) 0%,
+        rgba(246, 246, 246, 1) 100%);
+
+    grid-template-areas: "about-text about-image";
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.about-text {
+    grid-area: about-text;
+    color: $Grey;
+    margin-top: 40px;
+    margin-left: 20px;
+    padding: 30px;
+    font-size: 16px !important;
+}
+
+.about-image {
+    grid-area: about-image;
+    background-color: rgba(246, 246, 246, 0.2);
+}
+
+.banner-wrapper {
+    display: grid;
+    min-height: 100px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "learn-more connecting-people";
+}
+
+.learn-more {
+    grid-area: learn-more;
+    background: $Magenta;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.connecting-people {
+    grid-area: connecting-people;
+    color: #fff;
+    background: $Darkblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    color: #fff;
+    text-decoration: none;
+    border: 1.5px solid #fff;
+    border-radius: 3px;
+    padding: 6px 20px;
+    box-sizing: border-box;
+}
