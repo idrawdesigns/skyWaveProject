@@ -4,6 +4,7 @@ import './jobseeker.scss'
 import JobList from '../../containers/views/JobList'
 import JobItemPage from './JobItemPage'
 import { Context } from '../../App'
+import NoJobs from '../../components/NoJobs'
 
 const Jobseekers = () => {
   const { renderjob } = React.useContext(Context)
@@ -25,7 +26,7 @@ const Jobseekers = () => {
         </form>
       </section>
       <section className="jobs">
-        <JobList />
+        <NoJobs />
       </section>
     </section>
   )

@@ -24,7 +24,7 @@ const App = () => {
           <Route path="/employer" component={Employer} />
           <Route path="/jobseekers" component={JobSeekers} />
           <Route path="/contacts" component={Contacts} />
-          <Route path="/admin" component={AdminPage} />
+          {/* <Route path="/admin" component={AdminPage} /> */}
           <Route path="/job" render={() => <JobItemPage job={renderjob} />} />
         </Switch>
       </div>

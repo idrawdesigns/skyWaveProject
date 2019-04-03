@@ -43,11 +43,15 @@ const navigation = () => {
             </NavLink>
           </li>
 
-          <span>
-            <NavLink to="/admin" activeClassName="active" className="nav-link">
+          {/* <span>
+            <NavLink
+              to="/admin"
+              activeClassName="disabled"
+              className="nav-link"
+            >
               <li>Admin Login</li>
             </NavLink>
-          </span>
+          </span> */}
         </ul>
       </nav>
     </div>
